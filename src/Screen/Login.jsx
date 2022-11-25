@@ -6,7 +6,7 @@ import Nav from '../components/Nav'
 
 
 const icon = (<Icon name='user-alt' color='#6c6c6c' size={130} />)
-const url = `http://192.168.1.70:3000/user/login`
+const url = `http://192.168.0.117:3000/user/login`;
 
 
 
