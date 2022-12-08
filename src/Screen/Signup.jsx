@@ -4,10 +4,11 @@ import {
 import React, { useState } from 'react'
 import Icon from 'react-native-vector-icons/FontAwesome5'
 import Nav from '../components/Nav';
+import { API_URL } from "../utils/constants";
 
-import { useNavigation } from '@react-navigation/native'
+import { useNavigation } from "@react-navigation/native";
 
-const url = 'http://192.168.1.70:3000/user/signup'
+const url = `${API_URL}/user/signup`;
 const icon = (<Icon name='user-alt' color='#6c6c6c' size={130} />)
 
 

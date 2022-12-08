@@ -20,7 +20,6 @@ export default function Admin() {
   return (
     <SafeAreaView style={styles.container}>
       <Nav />
-      <Text style={styles.etiqueta}> Pago</Text>
       <ScrollView style={styles.containerBody}>
         <TouchableWithoutFeedback onPress={() => mover("BuscarUsuarios")}>
           <View style={styles.menuUno}>
